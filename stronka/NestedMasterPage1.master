@@ -1,0 +1,19 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="NestedMasterPage1.master.cs" Inherits="stronka.NestedMasterPage1" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+        <a href="https://www.facebook.com/bezuzytecznapl/photos/a.1457955420940199/5738972842838414/"><img class="social" src="https://w7.pngwing.com/pngs/874/717/png-transparent-facebook-logo-facebook-social-media-computer-icons-linkedin-social-network-gray-angle-text-logo.png" alt="NIE DZIALA KURWA"></a>
+        <a href="https://twitter.com/Eurosport_PL/status/1598421014832373760/photo/1"><img class="social" src="https://w7.pngwing.com/pngs/926/815/png-transparent-computer-icons-social-media-facebook-inc-linkedin-social-media-text-trademark-logo-thumbnail.png" alt="NIE DZIALA KURWA"></a>
+        <a href="https://www.instagram.com/ffa_gl/"><img class="social" src="https://w7.pngwing.com/pngs/244/20/png-transparent-logo-computer-icons-grey-background-miscellaneous-brand-circle-thumbnail.png" alt="NIE DZIALA KURWA"></a>
+        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Home" CssClass="btn" style="height: 37px; top: 0px; left: 0px;" />
+        <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Galeria" CssClass="btn" style="height: 37px; top: 0px; left: 0px;" />
+        <asp:Button ID="Button3" runat="server" Text="Kontakt" CssClass="btn" OnClick="Button3_Click" />
+        <asp:Button ID="Button4" runat="server" CssClass="btn" OnClick="Button4_Click" Text="Logowanie" />
+        <asp:Button ID="Button5" runat="server" CssClass="btn" OnClick="Button5_Click" Text="prot" />
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+</asp:ContentPlaceHolder>
+</asp:Content>
+
+
